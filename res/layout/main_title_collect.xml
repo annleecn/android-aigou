@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    >
+
+
+    <ImageView 
+        android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+        android:background="@drawable/title_layout_bg" />
+    <TextView
+        android:id="@id/main_title_text"
+        style="@style/TitleTextTheme"
+        android:layout_centerInParent="true"
+        android:ellipsize="middle"
+        android:maxLength="8"
+        android:text="@string/main_title_collect" />
+
+
+</RelativeLayout>

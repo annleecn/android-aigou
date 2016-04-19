@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_type_layout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/type_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/type_content_margintop"
+    android:paddingLeft="@dimen/type_content_marginleft"
+    android:paddingRight="@dimen/type_content_marginright"
+    android:paddingTop="@dimen/type_content_margintop" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@id/type_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/type_content_marginleft"
+            android:paddingLeft="30dip"
+            android:background="@drawable/search_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/tab_type_search"
+            android:imeOptions="actionSearch"
+            android:maxLength="30"
+            android:singleLine="true" 
+            android:textSize="@dimen/type_search_ts" />
+
+        <ImageView
+            android:id="@id/show_speaksearch"
+            android:layout_width="25.0dip"
+            android:layout_height="25.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25.0dip"
+            android:background="@drawable/huatong" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/type_content_margintop" >
+
+        <ListView
+            android:id="@id/type_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@null"
+            android:divider="@null"
+            android:dividerHeight="3.0dip"
+            android:fadingEdge="none"
+            android:listSelector="@null" />
+
+        <RelativeLayout
+            android:id="@id/small_type_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/default_transparent"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="invisible" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@id/small_type_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/small_type_head" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/small_type_bg"
+                    android:orientation="vertical"
+                    android:id="@id/small_type_lin" >
+
+                    <ImageButton
+                        android:id="@id/small_type_close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="7.0dip"
+                        android:background="@drawable/small_type_close"
+                        android:padding="10.0dip" />
+
+                    <GridView
+                        android:id="@id/small_type_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10.0dip"
+                        android:gravity="center"
+                        android:listSelector="@null"
+                        android:numColumns="4"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="@dimen/type_content_vs" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_middle_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@id/main_body_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@id/commend_turn_img"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/commend_theme1" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout style="@style/main_list_image" >
+
+                        <RelativeLayout style="@style/main_list_image_2" >
+
+                            <ImageView
+                                android:id="@+id/main_img_11"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/commend_content_suit" />
+
+                            <TextView
+                                style="@style/main_img_text"
+                                android:layout_alignBottom="@id/main_img_11"
+                                android:text="@string/main_img_text_11" />
+                        </RelativeLayout>
+
+                        <RelativeLayout style="@style/main_list_image_2" >
+
+                            <ImageView
+                                android:id="@+id/main_img_12"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/commend_content_home" />
+
+                            <TextView
+                                style="@style/main_img_text"
+                                android:layout_alignBottom="@id/main_img_12"
+                                android:text="@string/main_img_text_12" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/main_list_image" >
+
+                        <RelativeLayout style="@style/main_list_image_3" >
+
+                            <ImageView
+                                android:id="@+id/main_img_21"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/commend_content_fad" />
+
+                            <TextView
+                                style="@style/main_img_text"
+                                android:layout_alignBottom="@id/main_img_21"
+                                android:text="@string/main_img_text_21" />
+                        </RelativeLayout>
+
+                        <RelativeLayout style="@style/main_list_image_3" >
+
+                            <ImageView
+                                android:id="@+id/main_img_22"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/commend_content_shoes" />
+
+                            <TextView
+                                style="@style/main_img_text"
+                                android:layout_alignBottom="@id/main_img_22"
+                                android:text="@string/main_img_text_22" />
+                        </RelativeLayout>
+
+                        <RelativeLayout style="@style/main_list_image_3" >
+
+                            <ImageView
+                                android:id="@+id/main_img_23"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/commend_content_num" />
+
+                            <TextView
+                                style="@style/main_img_text"
+                                android:layout_alignBottom="@id/main_img_23"
+                                android:text="@string/main_img_text_23" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/main_list_image" >
+                        <RelativeLayout style="@style/main_list_image_2" >
+
+                            <ImageView
+                                android:id="@+id/main_img_31"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/commend_content_eat" />
+
+                            <TextView
+                                style="@style/main_img_text"
+                                android:layout_alignBottom="@id/main_img_31"
+                                android:text="@string/main_img_text_31" />
+                        </RelativeLayout>
+
+                        <RelativeLayout style="@style/main_list_image_2" >
+
+                            <ImageView
+                                android:id="@+id/main_img_32"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/commend_content_sex" />
+
+                            <TextView
+                                style="@style/main_img_text"
+                                android:layout_alignBottom="@id/main_img_32"
+                                android:text="@string/main_img_text_32" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/main_list_image" >
+
+                        <RelativeLayout style="@style/main_list_image_2" >
+
+                            <ImageView
+                                android:id="@+id/main_img_41"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/commend_content_eat" />
+
+                            <TextView
+                                style="@style/main_img_text"
+                                android:layout_alignBottom="@id/main_img_41"
+                                android:text="@string/main_img_text_41" />
+                        </RelativeLayout>
+
+                        <RelativeLayout style="@style/main_list_image_2" >
+
+                            <ImageView
+                                android:id="@+id/main_img_42"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:background="@drawable/commend_content_sex" />
+
+                            <TextView
+                                style="@style/main_img_text"
+                                android:layout_alignBottom="@id/main_img_42"
+                                android:text="@string/main_img_text_42" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

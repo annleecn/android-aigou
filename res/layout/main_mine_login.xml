@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_mine_login"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <include
+        android:id="@id/main_sub_title"
+        layout="@layout/main_sub_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/mine_login_margin1"
+            android:text="@string/mine_login_hine0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/mine_login_textsize1" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/mine_login_scale1"
+            android:paddingRight="@dimen/mine_login_scale1" >
+
+            <EditText
+                android:id="@id/mine_login_username"
+                style="@style/MineLoginEdit"
+                android:layout_marginTop="@dimen/mine_login_margin2"
+                android:hint="@string/mine_login_hine1"
+                android:inputType="text"
+                android:maxLength="30" />
+
+            <EditText
+                android:id="@id/mine_login_userpassword"
+                style="@style/MineLoginEdit"
+                android:layout_marginTop="@dimen/mine_login_margin2"
+                android:hint="@string/mine_login_hine2"
+                android:inputType="textPassword"
+                android:maxLength="30" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mine_login_margin2"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@id/mine_login_denglu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/mine_login_scale1"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/button_1"
+                    android:text="@string/mine_login_but2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/mine_login_textsize2" />
+
+                <Button
+                    android:id="@id/mine_login_zhuche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/mine_login_scale1"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/button_2"
+                    android:text="@string/mine_login_but3"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/mine_login_textsize2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mine_login_margin3" >
+
+            <include layout="@layout/main_line_space" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/mine_login_scale2"
+                android:paddingRight="@dimen/mine_login_scale2"
+                android:text="@string/mine_login_other0"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/mine_login_textsize2" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mine_login_margin4"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/signin_taobao"
+                style="@style/MineOtherLogin"
+                android:drawableTop="@drawable/logo_tb"
+                android:text="@string/mine_login_othertb" />
+
+            <TextView
+                android:id="@id/signin_xl"
+                style="@style/MineOtherLogin"
+                android:drawableTop="@drawable/logo_xl"
+                android:text="@string/mine_login_otherxl" />
+
+            <TextView
+                android:id="@id/signin_qq"
+                style="@style/MineOtherLogin"
+                android:layout_marginRight="@dimen/mine_login_scale2"
+                android:drawableTop="@drawable/logo_qq"
+                android:text="@string/mine_login_otherqq" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

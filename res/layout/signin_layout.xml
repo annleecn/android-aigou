@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/mine_login_margin1"
+        android:text="@string/mine_login_hine0"
+        android:textColor="@color/black"
+        android:textSize="@dimen/mine_login_textsize1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/mine_login_scale1"
+        android:paddingRight="@dimen/mine_login_scale1" >
+
+        <EditText
+            android:id="@id/mine_login_nick"
+            style="@style/MineLoginEdit"
+            android:layout_marginTop="@dimen/mine_login_margin2"
+            android:hint="@string/mine_login_hine3"
+            android:inputType="text"
+            android:maxLength="30" />
+
+        <EditText
+            android:id="@id/mine_login_username"
+            style="@style/MineLoginEdit"
+            android:layout_marginTop="@dimen/mine_login_margin2"
+            android:hint="@string/mine_login_hine1"
+            android:inputType="text"
+            android:maxLength="30" />
+
+        <EditText
+            android:id="@id/mine_login_userpassword"
+            style="@style/MineLoginEdit"
+            android:layout_marginTop="@dimen/mine_login_margin2"
+            android:hint="@string/mine_login_hine2"
+            android:inputType="textPassword"
+            android:maxLength="30" />
+          <LinearLayout
+             android:orientation="horizontal" 
+             android:layout_height="wrap_content"
+              android:layout_width="match_parent" 
+              android:id="@+id/linearLayout4"> 
+         <LinearLayout 
+             android:orientation="horizontal"
+              android:layout_height="50dp"
+               android:layout_width="120dp"
+                android:id="@+id/linear" 
+                android:layout_weight="1">
+       </LinearLayout>
+        <EditText 
+            android:layout_height="50dp"
+             android:layout_width="120dp"
+              android:id="@+id/rg_editText4"
+               android:ems="10"
+                android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/rg_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="看不清换一张" />
+ 
+          </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mine_login_margin2"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@id/mine_login_zhuche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/mine_login_scale1"
+                android:layout_weight="1.0"
+                android:background="@drawable/button_2"
+                android:text="@string/mine_login_but3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mine_login_textsize2" />
+
+            <Button
+                android:id="@id/mine_login_denglu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/mine_login_scale1"
+                android:layout_weight="1.0"
+                android:background="@drawable/button_1"
+                android:text="@string/mine_login_but4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mine_login_textsize2" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

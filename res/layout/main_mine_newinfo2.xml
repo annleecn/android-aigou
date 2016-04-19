@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_mine_newinfo2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffe3e3e3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/mine_info_user"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mine_info_height"
+        android:background="@drawable/mine_user_bg" >
+
+        <ImageButton
+            android:id="@id/mine_info_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/mine_info_margin1"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/but_setting_bg" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mine_info_margin2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/mine_info_margin1"
+            android:paddingRight="@dimen/mine_info_margin1" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mine_info_picframe"
+                android:scaleType="center"
+                android:src="@drawable/mine_info_picdef" />
+
+            <Button
+                android:id="@id/mine_info_userinfo_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:background="@drawable/mine_info_singupbg"
+                android:paddingBottom="5.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingTop="5.0dip"
+                android:text="@string/mine_info_singup"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:id="@id/mine_info_userinfo_true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@id/mine_info_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/mine_info_margin1"
+                    android:ellipsize="end"
+                    android:maxLength="15"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/mine_info_textsize3" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mine_info_margin1"
+                        android:text="@string/mine_info_title2"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/mine_info_textsize1" />
+
+                    <TextView
+                        android:id="@id/mine_info_fund"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mine_info_margin1"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/mine_info_textsize2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@id/mine_info_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="12dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:layout_width="50.0dip"
+                android:layout_height="30.0dip"
+                android:layout_marginRight="@dimen/mine_info_margin2"
+                android:background="@drawable/mine_info_butsel"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/mine_info_but3"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:layout_width="50.0dip"
+                android:layout_height="30.0dip"
+                android:layout_marginRight="@dimen/mine_info_margin2"
+                android:background="@drawable/mine_info_butsel"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/mine_info_but4"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:layout_width="50.0dip"
+                android:layout_height="30.0dip"
+                android:layout_marginRight="@dimen/mine_info_margin2"
+                android:background="@drawable/mine_info_butsel"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/mine_info_but2"
+                android:textColor="@color/white" />
+            
+            <RadioButton
+                android:layout_width="50.0dip"
+                android:layout_height="30.0dip"
+                android:background="@drawable/mine_info_butsel"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/mine_info_but1"
+                android:textColor="@color/white" />
+        </RadioGroup>
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="亲，登录领购币，免费换商品哟！"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

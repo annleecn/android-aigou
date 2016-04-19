@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_h">47dp</dimen>
+    <dimen name="collect_tab_ts">18.0sp</dimen>
+    <dimen name="title_paddingleftbut">8.0px</dimen>
+    <dimen name="title_marginright">10.0dip</dimen>
+    <dimen name="top_shadow_height">2.0dip</dimen>
+    <dimen name="mine_login_margin1">30.0dip</dimen>
+    <dimen name="mine_login_scale1">10.0dip</dimen>
+    <dimen name="mine_login_margin2">15.0dip</dimen>
+    <dimen name="mine_login_textsize1">22.0dip</dimen>
+    <dimen name="mine_login_textsize2">18.0dip</dimen>
+    <dimen name="mine_login_margin3">35.0dip</dimen>
+    <dimen name="mine_info_scale">2.0dip</dimen>
+    <dimen name="mine_login_margin4">20.0dip</dimen>
+    <dimen name="mine_login_scale2">15.0dip</dimen>
+    <dimen name="mine_info_height">186.0dip</dimen>
+    <dimen name="mine_info_margin1">15.0dip</dimen>
+    <dimen name="mine_info_margin2">25.0dip</dimen>
+    <dimen name="mine_info_textsize3">25.0sp</dimen>
+    <dimen name="mine_info_textsize1">16.0sp</dimen>
+    <dimen name="mine_info_textsize2">22.0sp</dimen>
+    <dimen name="type_content_margintop">5.0dip</dimen>
+    <dimen name="type_content_vs">5.0dip</dimen>
+    <dimen name="type_content_marginleft">8.0dip</dimen>
+    <dimen name="type_content_marginright">3.0dip</dimen>
+    <dimen name="type_search_ts">14.0sp</dimen>
+    <dimen name="title_text_size">22.0sp</dimen>
+    <dimen name="mine_linewidth">1.0dip</dimen>
+    <dimen name="mine_login_editpad">5.0dip</dimen>
+    <dimen name="mine_login_textsize3">12.0dip</dimen>
+
+</resources>

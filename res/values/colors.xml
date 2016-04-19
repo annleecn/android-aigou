@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="collect_tab_tc_nosel">#ff999999</color>
+    <color name="default_transparent">#33000000</color>
+    <color name="black">#000000</color>
+    <color name="grey">#ffc5c5c5</color>
+    <color name="red">#FF0000</color>
+</resources>

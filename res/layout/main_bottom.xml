@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@id/main_under_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_bottom_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@id/main_tab_commend"
+            style="@style/MainUnderButTheme"
+            android:drawableTop="@drawable/but_commend"
+            android:text="@string/under_commend" />
+
+        <Button
+            android:id="@id/main_tab_type"
+            style="@style/MainUnderButTheme"
+            android:drawableTop="@drawable/but_type"
+            android:text="@string/under_type" />
+
+        <Button
+            android:id="@id/main_tab_collect"
+            style="@style/MainUnderButTheme"
+            android:drawableTop="@drawable/but_collect"
+            android:text="@string/under_collect" />
+
+        <Button
+            android:id="@id/main_tab_mine"
+            style="@style/MainUnderButTheme"
+            android:drawableTop="@drawable/but_mine"
+            android:text="@string/under_mine" />
+    </LinearLayout>
+
+</LinearLayout>

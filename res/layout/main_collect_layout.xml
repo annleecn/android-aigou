@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_collect_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@id/collect_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@id/collect_product"
+            android:text="@string/collect_tab_product"
+            style="@style/collect_but"/>
+
+        <Button
+            android:id="@id/collect_shop"
+            android:text="@string/collect_tab_shop"
+            style="@style/collect_but" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    <FrameLayout
+        android:id="@id/collect_product_fl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="invisible" >
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="亲，还木有收藏哦"
+            android:gravity="center"
+            android:textColor="@color/grey"/>
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@id/collect_shop_fl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="invisible" >
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="亲，请先登录！"
+            android:gravity="center"/>
+    </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
